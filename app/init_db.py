@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from datetime import datetime
 
 # Conexión al servidor de MongoDB (local o en contenedor)
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb://172.31.26.21:27017/")
 
 # Accede o crea la base de datos
 db = client["cinedb"]
